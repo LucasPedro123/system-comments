@@ -19,7 +19,7 @@ mongoose.connect('mongodb+srv://LucasP:ckm0urYixx2CI4sQ@clusterdb.8wbgkwd.mongod
 app.use(bodyParser.json());
 
 const corsOptions = {
-    origin: ['http://localhost:5173', 'http://mywebsite-portfolio-three.vercel.app'],
+    origin: ['http://localhost:5173', 'https://mywebsite-portfolio-three.vercel.app'],
     methods: ['GET', 'POST', 'OPTIONS', 'PUT', 'PATCH', 'DELETE'],
     allowedHeaders: ['Origin', 'X-Requested-With', 'Content-Type', 'Accept'],
     credentials: true // Permitir credenciais
